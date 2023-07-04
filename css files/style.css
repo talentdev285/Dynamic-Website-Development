@@ -1,0 +1,440 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+/* Start navbar */
+nav {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-menus ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menus ul li {
+  margin-right: 25px;
+}
+
+.nav-menus ul li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-menus ul li a:hover {
+  color: #888;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  height: 40px;
+}
+.nav-icons {
+  display: flex;
+}
+
+.icons ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.icons ul li {
+  margin-right: 10px;
+}
+
+.icons ul li a {
+  font-size: px;
+  color: #000;
+  text-decoration: none;
+}
+
+.icons ul li a:hover {
+  color: #888;
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .nav-menus ul li {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-menus ul {
+    margin-bottom: 10px;
+  }
+
+  .icons ul li {
+    margin-right: 5px;
+  }
+}
+
+/* End navbar */
+
+/* start hero section */
+
+.hero {
+  background-image: url("https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1792/cms/5QtYBPMTxxzM5VFMxPx2EH/fae5d78d6ea6f657af9b77f7d59847a3/23Q2-SummerLookbook-Hero-Desktop-3841________2346.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  flex: 1;
+  color: #fff;
+}
+.col h1 {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.col p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  width: 10rem;
+  padding: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+.black-footerhero {
+  background-color: #000;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.black-footerhero span {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col {
+    margin-bottom: 20px;
+  }
+}
+/* end hero section */
+
+/* Start Shop-Category */
+.Shop-Category {
+  margin-bottom: 4rem;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #000;
+}
+#shop-products {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.shop_element {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 25rem;
+  position: relative;
+}
+.shop_element img {
+  width: 100%;
+}
+.shop_element img:hover {
+  opacity: 0.3;
+}
+.icon_text {
+  display: flex;
+  gap: 1rem;
+  margin: 0 30px 10px;
+}
+.icon_text img {
+  width: 2rem;
+}
+.shop_buttons {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.shop_buttons:hover {
+  opacity: 1;
+}
+
+/* End Shop-Category */
+
+/* blankImg-banner Start */
+.blankImg-banner {
+  background-image: url("https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1792/cms/1aSRxRLgpchR4aYUZBtxUt/5704a4e579f16d96657a2b359b10ac8f/23Q2-Moonshot-Site-Secondary_Hero-3840x1995.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+/* blankImg-banner End */
+
+/* first-look Start */
+.first-look {
+  text-align: center;
+  margin: 3rem;
+}
+
+.learn-more {
+  width: 25rem;
+  background-color: black;
+  color: white;
+}
+.learn-more:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  color: #000;
+}
+
+/* first-look End */
+
+/* New-Arrivals carts design start */
+.New-Arrivals {
+  position: relative;
+  margin: 1rem 0 4rem 10rem;
+}
+.new-arrival-card {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  scroll-behavior: smooth;
+}
+.new-arrival-card-details {
+  transition: transform 0.5s ease;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 25rem;
+}
+.new-arrival-card-details img {
+  width: 100%;
+  transition: 0.5s ease;
+}
+.new-arrival-card-details img:hover {
+  transform: scale(0.9);
+}
+.new-arrival-card-text {
+  padding: 0 0 0 2rem;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-left: -6rem;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 5%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* New-Arrivals carts design End */
+/* blankImg-banner Start */
+.blankImg-banner2 {
+  background-image: url("https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1792/cms/1dieSOxrKIS37cgyv2y35G/1f015ff8ee9ba99d8b99e2eef4bc76de/23Q2-SummerLookbook-Secondary-Hero-Desktop-3840________1996-3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+/* blankImg-banner End */
+.summer-style {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+/* Shop-The-Collections */
+.Shop-The-Collections {
+  margin: 1rem;
+}
+.swiper {
+  position: relative;
+  overflow-x: hidden;
+  margin-bottom: 5rem;
+}
+.swiper-wrapper {
+  display: inline-flex;
+  gap: 2rem;
+}
+.swiper-slide {
+  width: 20rem;
+  height: auto;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.swiper-slide:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.swiper-slide img {
+  width: 200px;
+  max-width: 150px;
+  transition: 0.5s ease;
+}
+.swiper-slide img:hover {
+  transform: scale(1.2);
+}
+.swiper-button-prev,
+.swiper-button-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  background-color: rgb(204, 204, 204);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.swiper-button-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Shop-The-Collections End */
+
+.blankImg-banner3 {
+  background-image: url("https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1792/cms/60rnDOMzRAliqaTJPpQrhV/1fe6395cb6cb1b51e42400f9b288a34f/23Q2-SummerLookbook-Secondary-Hero-Desktop-3840________1996.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+/* Help footer design start */
+.help {
+  background-color: #1c1c1c;
+}
+.help-container {
+  display: flex;
+  gap: 10rem;
+  padding: 5rem 10rem;
+  color: white;
+}
+.follow-text {
+  background-color: #1c1c1c;
+}
+.follow-container {
+  display: flex;
+  gap: 10rem;
+  padding: 0rem 10rem;
+  color: white;
+}
+.icons {
+  display: flex;
+  gap: 0.7rem;
+}
+.icons img {
+  width: 1.6rem;
+}
+.flags {
+  gap: 0.6rem;
+}
+.copyright {
+  text-align: center;
+  color: white;
+  padding: 8rem 0rem;
+}
